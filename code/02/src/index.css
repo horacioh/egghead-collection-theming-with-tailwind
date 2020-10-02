@@ -2,16 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+.theme-light {
+  --color-primary: theme("colors.blue.700");
+  --color-primary-hover: theme("colors.blue.800");
+
+  --color-body: theme("colors.gray.700");
+  --color-body-muted: theme("colors.gray.500");
+
+  --color-background: theme("colors.gray.100");
+  --color-background-muted: theme("colors.gray.200");
+}
+
+.theme-dark {
+  --color-primary: theme("colors.blue.300");
+  --color-primary-hover: theme("colors.blue.200");
+
+  --color-body: theme("colors.gray.300");
+  --color-body-muted: theme("colors.gray.500");
+
+  --color-background: theme("colors.gray.900");
+  --color-background-muted: theme("colors.gray.800");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
