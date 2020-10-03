@@ -2,6 +2,33 @@
 
 ## Steps
 
+- add the CSS Variables needed based on the themes you want to setup in `index.css` file
+
+```css
+/* index.css */
+.theme-light {
+  --color-primary: theme("colors.blue.700");
+  --color-primary-hover: theme("colors.blue.800");
+
+  --color-body: theme("colors.gray.700");
+  --color-body-muted: theme("colors.gray.500");
+
+  --color-background: theme("colors.gray.100");
+  --color-background-muted: theme("colors.gray.200");
+}
+
+.theme-dark {
+  --color-primary: theme("colors.blue.300");
+  --color-primary-hover: theme("colors.blue.200");
+
+  --color-body: theme("colors.gray.300");
+  --color-body-muted: theme("colors.gray.500");
+
+  --color-background: theme("colors.gray.900");
+  --color-background-muted: theme("colors.gray.800");
+}
+```
+
 - update the `tailwind.config.js` file:
 
 ```js
@@ -27,33 +54,6 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-}
-```
-
-- add the CSS Variables needed based on the themes you want to setup in `index.css` file
-
-```css
-/* index.css */
-.theme-light {
-  --color-primary: theme("colors.blue.700");
-  --color-primary-hover: theme("colors.blue.800");
-
-  --color-body: theme("colors.gray.700");
-  --color-body-muted: theme("colors.gray.500");
-
-  --color-background: theme("colors.gray.100");
-  --color-background-muted: theme("colors.gray.200");
-}
-
-.theme-dark {
-  --color-primary: theme("colors.blue.300");
-  --color-primary-hover: theme("colors.blue.200");
-
-  --color-body: theme("colors.gray.300");
-  --color-body-muted: theme("colors.gray.500");
-
-  --color-background: theme("colors.gray.900");
-  --color-background-muted: theme("colors.gray.800");
 }
 ```
 
