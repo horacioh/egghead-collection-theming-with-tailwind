@@ -9,8 +9,8 @@ module.exports = {
       colors: {
         primary: "var(--color-primary)"
       }
-    }
+    },
   },
   variants: {},
   plugins: [],
-};
+}
