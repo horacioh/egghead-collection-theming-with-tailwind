@@ -7,15 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "var(--color-primary)",
-        "primary-hover": "var(--color-primary-hover)",
-        body: "var(--color-body)",
-        "body-muted": "var(--color-body-muted)",
-        background: "var(--color-background)",
-        "background-muted": "var(--color-background-muted)",
-      },
-    },
+        primary: "var(--color-primary)"
+      }
+    }
   },
   variants: {},
   plugins: [],
-}
+};

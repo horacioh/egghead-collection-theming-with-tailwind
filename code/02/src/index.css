@@ -3,25 +3,11 @@
 @tailwind utilities;
 
 .theme-light {
-  --color-primary: theme("colors.blue.700");
-  --color-primary-hover: theme("colors.blue.800");
-
-  --color-body: theme("colors.gray.700");
-  --color-body-muted: theme("colors.gray.500");
-
-  --color-background: theme("colors.gray.100");
-  --color-background-muted: theme("colors.gray.200");
+  --color-primary: theme('colors.blue.600')
 }
 
 .theme-dark {
-  --color-primary: theme("colors.blue.300");
-  --color-primary-hover: theme("colors.blue.200");
-
-  --color-body: theme("colors.gray.300");
-  --color-body-muted: theme("colors.gray.500");
-
-  --color-background: theme("colors.gray.900");
-  --color-background-muted: theme("colors.gray.800");
+  --color-primary: theme('colors.red.300')
 }
 
 body {
