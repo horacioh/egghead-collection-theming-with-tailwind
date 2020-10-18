@@ -34,7 +34,6 @@ Should learn all the bits and pieces to implement theming in a React Application
 
 - store in API would be a good thing to mention in the description
 
-
 ## Extra lessons
 
 - how to "extend" your color theme with CSS Variables
