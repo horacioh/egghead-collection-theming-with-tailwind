@@ -1,4 +1,4 @@
-# Theming with Tailwind 02: Setup your Theme Colors
+# Theming with Tailwind 02: Setup your Theme Context
 
 ## Steps
 
